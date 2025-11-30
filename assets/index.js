@@ -53,7 +53,7 @@ imageInput.addEventListener("change", (event) => {
   fetch("	https://api.imgur.com/3/image", {
     method: "POST",
     headers: {
-      Authorization: "Client-ID e4d98a899c8c946",
+      Authorization: "Client-ID 2eeffd2805be0f5",
     },
     body: data,
   })
@@ -128,3 +128,4 @@ guide.addEventListener("click", () => {
     guide.classList.add("unfolded");
   }
 });
+
